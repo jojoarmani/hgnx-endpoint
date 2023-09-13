@@ -25,7 +25,7 @@ app.get('/info', (req, res) => {
   }
 
   // GitHub URLs
-  const githubFileURL = 'https://github.com/yourusername/yourrepository/blob/main/yourfile.js';
+  const githubFileURL = 'https://github.com/jojoarmani/hgnx-endpoint/blob/main/app.js';
   const githubSourceURL = 'https://github.com/jojoarmani/hgnx-endpoint';
 
   // Send the response in JSON format
