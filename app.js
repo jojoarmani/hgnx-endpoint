@@ -28,6 +28,10 @@ app.get('/info', (req, res) => {
   const githubFileURL = 'https://github.com/jojoarmani/hgnx-endpoint/blob/main/app.js';
   const githubSourceURL = 'https://github.com/jojoarmani/hgnx-endpoint';
 
+  //slack and track
+  slackName = "VPN Proxy"
+  track = "backend"
+
   // Send the response in JSON format
   res.status(200).json({
     slackName,
